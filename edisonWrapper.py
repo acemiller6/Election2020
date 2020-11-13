@@ -19,14 +19,12 @@ description = "Parse Edison Json data from 2020 election for all states.  Full l
     illinois\n\
     indiana\n\
     iowa\n\
-    jersey\n\
     kansas\n\
     kentucky\n\
     louisiana\n\
     maine\n\
     maryland\n\
     massachusetts\n\
-    mexico\n\
     michigan\n\
     minnesota\n\
     mississippi\n\
@@ -34,7 +32,9 @@ description = "Parse Edison Json data from 2020 election for all states.  Full l
     montana\n\
     nebraska\n\
     nevada\n\
-    newhamp\n\
+    newhampshire\n\
+    newjersey\n\
+    newmexico\n\
     newyork\n\
     northcarolina\n\
     northdakota\n\
@@ -42,10 +42,10 @@ description = "Parse Edison Json data from 2020 election for all states.  Full l
     oklahoma\n\
     oregon\n\
     pennsylvania\n\
-    rhode\n\
+    rhodeisland\n\
     southcarolina\n\
     southdakota\n\
-    tenn\n\
+    tennessee\n\
     texas\n\
     utah\n\
     vermont\n\
