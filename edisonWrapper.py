@@ -15,6 +15,7 @@ description = "Parse Edison Json data from 2020 election for all states.  Full l
     districtofcolumbia\n\
     florida\n\
     georgia\n\
+    hawaii\n\
     idaho\n\
     illinois\n\
     indiana\n\
