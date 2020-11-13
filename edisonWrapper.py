@@ -1,6 +1,6 @@
 import argparse
 from argparse import RawDescriptionHelpFormatter
-from fraudcatch import findfraud, findfraud2
+from fraudcatch import findfraudTrump, findfraud2, findfraudBiden
 
 
 description = "Parse Edison Json data from 2020 election for all states.  Full list of states to use on the command line (note names are not always complete):\n\
@@ -60,14 +60,7 @@ parser = argparse.ArgumentParser(description=description, formatter_class=RawDes
 parser.add_argument('state', help='state name to look at data (see list above)')
 args = parser.parse_args()
 
-# stateList = ["alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware","districtofcolumbia","florida","georgia","idaho","illinois","indiana",\
-#     "iowa","jersey","kansas","kentucky","louisiana","maine","maryland","massachusetts","mexico","michigan","minnesota","mississippi","missouri","montana","nebraska","nevada",\
-#         "newhamp","newyork","northcarolina","northdakota","ohio","oklahoma","oregon","pennsylvania","rhode","southcarolina","southdakota","tenn","texas","utah","vermont",\
-#             "virginia","washington","westvirginia","wisconsin","wyoming"]
-# for state in stateList:
-#     switch = findfraud(state)
-#     lost = findfraud2(state)
-#     print("{},{},{}".format(state,switch,lost))
 
-findfraud(args.state)
+findfraudTrump(args.state)
 findfraud2(args.state)
+findfraudBiden(args.state)
